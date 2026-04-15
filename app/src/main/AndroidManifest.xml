@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendenceSuggestion">
         <activity
+            android:name=".SubjectActivity"
+            android:exported="false" />
+        <activity
             android:name=".StudentDetailsActivity"
             android:exported="false" />
         <activity
